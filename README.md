@@ -5,6 +5,10 @@ Source codes for CharFormer
 
 ### Running Procedures:
 
+1. Unzip the preprocess folder, you can get the word dataset and Uniref dataset.
+
+2. Run 'train.py' to train the model.
+
 - train CharFormer model
 
 > python train.py --dataset word --epochs 90 --mask local --recall --sub
